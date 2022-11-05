@@ -8024,77 +8024,430 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="G2R2" urn="urn:adsk.eagle:footprint:23989/1" library_version="5">
-<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
-2 x switch, Omron</description>
-<wire x1="-4.699" y1="-6.604" x2="24.384" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="24.384" y1="6.477" x2="24.384" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="24.384" y1="6.477" x2="-4.699" y2="6.477" width="0.1524" layer="21"/>
-<wire x1="-4.699" y1="-6.604" x2="-4.699" y2="6.477" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="2.0574" x2="-2.54" y2="1.1938" width="0.1524" layer="21"/>
-<wire x1="-0.6604" y1="1.1938" x2="-0.6604" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="-4.4196" y1="-1.3208" x2="-4.4196" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-4.4196" y1="1.1938" x2="-2.54" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="1.1938" x2="-1.2954" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-3.7846" y1="-1.3208" x2="-4.4196" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="-1.2954" y1="1.1938" x2="-3.7846" y2="-1.3208" width="0.1524" layer="21"/>
-<wire x1="-1.2954" y1="1.1938" x2="-0.6604" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-0.6604" y1="-1.3208" x2="-2.54" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="-1.3208" x2="-2.54" y2="-1.9304" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.3208" x2="-3.7846" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="16.637" y1="0.508" x2="16.9672" y2="0.8382" width="0.254" layer="21"/>
-<wire x1="16.9672" y1="0.8382" x2="12.446" y2="0.8382" width="0.1524" layer="21"/>
-<wire x1="16.9672" y1="0.8382" x2="17.526" y2="1.397" width="0.254" layer="21"/>
-<wire x1="12.446" y1="0.8382" x2="12.446" y2="1.9812" width="0.1524" layer="21"/>
-<wire x1="18.4912" y1="0.8382" x2="22.479" y2="0.8382" width="0.1524" layer="21"/>
-<wire x1="22.479" y1="0.8382" x2="22.479" y2="1.9812" width="0.1524" layer="21"/>
-<wire x1="17.526" y1="1.905" x2="17.526" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="16.637" y1="-0.381" x2="16.9672" y2="-0.7112" width="0.254" layer="21"/>
-<wire x1="16.9672" y1="-0.7112" x2="12.446" y2="-0.7112" width="0.1524" layer="21"/>
-<wire x1="16.9672" y1="-0.7112" x2="17.526" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="12.446" y1="-0.7112" x2="12.446" y2="-1.8542" width="0.1524" layer="21"/>
-<wire x1="18.4912" y1="-0.7112" x2="22.479" y2="-0.7112" width="0.1524" layer="21"/>
-<wire x1="22.479" y1="-0.7112" x2="22.479" y2="-1.8542" width="0.1524" layer="21"/>
-<wire x1="17.526" y1="-1.778" x2="17.526" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="3.81" drill="1.3208" shape="long" rot="R90"/>
-<pad name="1" x="-2.54" y="-3.683" drill="1.3208" shape="long" rot="R90"/>
-<pad name="O1" x="12.4714" y="3.81" drill="1.3208" shape="long" rot="R90"/>
-<pad name="P1" x="17.4498" y="3.81" drill="1.3208" shape="long" rot="R90"/>
-<pad name="S1" x="22.4536" y="3.81" drill="1.3208" shape="long" rot="R90"/>
-<pad name="O2" x="12.4714" y="-3.683" drill="1.3208" shape="long" rot="R90"/>
-<pad name="P2" x="17.4498" y="-3.683" drill="1.3208" shape="long" rot="R90"/>
-<pad name="S2" x="22.4536" y="-3.683" drill="1.3208" shape="long" rot="R90"/>
-<text x="26.6446" y="-6.2992" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<package name="G6K-2F" urn="urn:adsk.eagle:footprint:24013/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-4.9" y1="-3.15" x2="-4.55" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-4.55" y1="-3.15" x2="-3.1" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="-3.15" x2="-2" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-0.55" y1="-3.15" x2="0.55" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="2" y1="-3.15" x2="3.1" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-2" y1="-3.15" x2="-0.55" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="0.55" y1="-3.15" x2="2" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="3.1" y1="-3.15" x2="4.55" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="-4.9" y1="3.15" x2="-4.55" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-4.55" y1="3.15" x2="-3.1" y2="3.15" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="3.15" x2="-2" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-0.55" y1="3.15" x2="0.55" y2="3.15" width="0.254" layer="21"/>
+<wire x1="2" y1="3.15" x2="3.1" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-2" y1="3.15" x2="-0.55" y2="3.15" width="0.254" layer="51"/>
+<wire x1="0.55" y1="3.15" x2="2" y2="3.15" width="0.254" layer="51"/>
+<wire x1="3.1" y1="3.15" x2="4.55" y2="3.15" width="0.254" layer="51"/>
+<wire x1="-4.9" y1="3.15" x2="-4.9" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="4.9" y1="3.15" x2="4.55" y2="3.15" width="0.254" layer="21"/>
+<wire x1="4.9" y1="-3.15" x2="4.55" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="4.9" y1="-3.15" x2="4.9" y2="3.15" width="0.254" layer="21"/>
+<circle x="-3.84" y="-1.8" radius="0.6" width="0" layer="21"/>
+<smd name="1" x="-3.81" y="-3.6" dx="1" dy="2" layer="1"/>
+<smd name="2" x="-1.27" y="-3.6" dx="1" dy="2" layer="1"/>
+<smd name="3" x="1.27" y="-3.6" dx="1" dy="2" layer="1"/>
+<smd name="4" x="3.81" y="-3.6" dx="1" dy="2" layer="1"/>
+<smd name="5" x="3.81" y="3.6" dx="1" dy="2" layer="1"/>
+<smd name="6" x="1.27" y="3.6" dx="1" dy="2" layer="1"/>
+<smd name="7" x="-1.27" y="3.6" dx="1" dy="2" layer="1"/>
+<smd name="8" x="-3.81" y="3.6" dx="1" dy="2" layer="1"/>
+<text x="-3.81" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.06" y1="-3.9" x2="-3.56" y2="-3.2" layer="51"/>
+<rectangle x1="-1.52" y1="-3.9" x2="-1.02" y2="-3.2" layer="51"/>
+<rectangle x1="1.02" y1="-3.9" x2="1.52" y2="-3.2" layer="51"/>
+<rectangle x1="3.56" y1="-3.9" x2="4.06" y2="-3.2" layer="51"/>
+<rectangle x1="-4.06" y1="3.2" x2="-3.56" y2="3.9" layer="51"/>
+<rectangle x1="-1.52" y1="3.2" x2="-1.02" y2="3.9" layer="51"/>
+<rectangle x1="1.02" y1="3.2" x2="1.52" y2="3.9" layer="51"/>
+<rectangle x1="3.56" y1="3.2" x2="4.06" y2="3.9" layer="51"/>
+</package>
+<package name="G6K-2G" urn="urn:adsk.eagle:footprint:24014/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-4.9" y1="-3.15" x2="-4.55" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-4.55" y1="-3.15" x2="-3.1" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="-3.15" x2="-2" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-0.55" y1="-3.15" x2="0.55" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="2" y1="-3.15" x2="3.1" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-2" y1="-3.15" x2="-0.55" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="0.55" y1="-3.15" x2="2" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="3.1" y1="-3.15" x2="4.55" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="-4.9" y1="3.15" x2="-4.55" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-4.55" y1="3.15" x2="-3.1" y2="3.15" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="3.15" x2="-2" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-0.55" y1="3.15" x2="0.55" y2="3.15" width="0.254" layer="21"/>
+<wire x1="2" y1="3.15" x2="3.1" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-2" y1="3.15" x2="-0.55" y2="3.15" width="0.254" layer="51"/>
+<wire x1="0.55" y1="3.15" x2="2" y2="3.15" width="0.254" layer="51"/>
+<wire x1="3.1" y1="3.15" x2="4.55" y2="3.15" width="0.254" layer="51"/>
+<wire x1="-4.9" y1="3.15" x2="-4.9" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="4.9" y1="3.15" x2="4.55" y2="3.15" width="0.254" layer="21"/>
+<wire x1="4.9" y1="-3.15" x2="4.55" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="4.9" y1="-3.15" x2="4.9" y2="3.15" width="0.254" layer="21"/>
+<circle x="-3.84" y="-1.165" radius="0.6" width="0" layer="21"/>
+<smd name="1" x="-3.81" y="-2.75" dx="1" dy="2" layer="1"/>
+<smd name="2" x="-1.27" y="-2.75" dx="1" dy="2" layer="1"/>
+<smd name="3" x="1.27" y="-2.75" dx="1" dy="2" layer="1"/>
+<smd name="4" x="3.81" y="-2.75" dx="1" dy="2" layer="1"/>
+<smd name="5" x="3.81" y="2.75" dx="1" dy="2" layer="1"/>
+<smd name="6" x="1.27" y="2.75" dx="1" dy="2" layer="1"/>
+<smd name="7" x="-1.27" y="2.75" dx="1" dy="2" layer="1"/>
+<smd name="8" x="-3.81" y="2.75" dx="1" dy="2" layer="1"/>
+<text x="-3.81" y="0.235" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.305" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.06" y1="-3.15" x2="-3.56" y2="-2.45" layer="51"/>
+<rectangle x1="-1.52" y1="-3.15" x2="-1.02" y2="-2.45" layer="51"/>
+<rectangle x1="1.02" y1="-3.15" x2="1.52" y2="-2.45" layer="51"/>
+<rectangle x1="3.56" y1="-3.15" x2="4.06" y2="-2.45" layer="51"/>
+<rectangle x1="-4.06" y1="2.45" x2="-3.56" y2="3.15" layer="51"/>
+<rectangle x1="-1.52" y1="2.45" x2="-1.02" y2="3.15" layer="51"/>
+<rectangle x1="1.02" y1="2.45" x2="1.52" y2="3.15" layer="51"/>
+<rectangle x1="3.56" y1="2.45" x2="4.06" y2="3.15" layer="51"/>
+</package>
+<package name="G6K-2P" urn="urn:adsk.eagle:footprint:24015/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-3.63" y1="-3.15" x2="-3.28" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-3.28" y1="-3.15" x2="-1.83" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="-1.83" y1="-3.15" x2="-0.73" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="0.72" y1="-3.15" x2="1.82" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="3.27" y1="-3.15" x2="4.37" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="-0.73" y1="-3.15" x2="0.72" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="1.82" y1="-3.15" x2="3.27" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="4.37" y1="-3.15" x2="5.82" y2="-3.15" width="0.254" layer="51"/>
+<wire x1="-3.63" y1="3.15" x2="-3.28" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-3.28" y1="3.15" x2="-1.83" y2="3.15" width="0.254" layer="51"/>
+<wire x1="-1.83" y1="3.15" x2="-0.73" y2="3.15" width="0.254" layer="21"/>
+<wire x1="0.72" y1="3.15" x2="1.82" y2="3.15" width="0.254" layer="21"/>
+<wire x1="3.27" y1="3.15" x2="4.37" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-0.73" y1="3.15" x2="0.72" y2="3.15" width="0.254" layer="51"/>
+<wire x1="1.82" y1="3.15" x2="3.27" y2="3.15" width="0.254" layer="51"/>
+<wire x1="4.37" y1="3.15" x2="5.82" y2="3.15" width="0.254" layer="51"/>
+<wire x1="-3.63" y1="3.15" x2="-3.63" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="6.17" y1="3.15" x2="5.82" y2="3.15" width="0.254" layer="21"/>
+<wire x1="6.17" y1="-3.15" x2="5.82" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="6.17" y1="-3.15" x2="6.17" y2="3.15" width="0.254" layer="21"/>
+<circle x="-2.57" y="-1.165" radius="0.6" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="0.8" shape="octagon"/>
+<pad name="2" x="0" y="-2.54" drill="0.8" shape="octagon"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.8" shape="octagon"/>
+<pad name="4" x="5.08" y="-2.54" drill="0.8" shape="octagon"/>
+<pad name="5" x="5.08" y="2.54" drill="0.8" shape="octagon"/>
+<pad name="6" x="2.54" y="2.54" drill="0.8" shape="octagon"/>
+<pad name="7" x="0" y="2.54" drill="0.8" shape="octagon"/>
+<pad name="8" x="-2.54" y="2.54" drill="0.8" shape="octagon"/>
+<text x="-2.54" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="G6K-2F-Y" urn="urn:adsk.eagle:footprint:24016/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-5" y1="3.3" x2="-4.5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="3.3" x2="-3.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="3.3" x2="-1.3" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="3.3" x2="0.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0.1" y1="3.3" x2="0.9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.9" y1="3.3" x2="2.3" y2="3.3" width="0.254" layer="51"/>
+<wire x1="2.3" y1="3.3" x2="3.1" y2="3.3" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="51"/>
+<wire x1="5" y1="3.3" x2="5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="-3.3" x2="4.6" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="4.6" y1="-3.3" x2="3.1" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="3.1" y1="-3.3" x2="2.3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="0.9" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0.9" y1="-3.3" x2="0.1" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="0.1" y1="-3.3" x2="-1.3" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-3.3" x2="-3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="-3" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-5" y1="-3.3" x2="-5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-5" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="21"/>
+<smd name="1" x="-3.8" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="8" x="-3.8" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="-0.6" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="7" x="-0.6" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="3" x="1.6" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="6" x="1.6" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="4" x="3.8" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="5" x="3.8" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<text x="-3.81" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.05" y1="-3.9" x2="-3.55" y2="-3.4" layer="51"/>
+<rectangle x1="-0.85" y1="-3.9" x2="-0.35" y2="-3.4" layer="51"/>
+<rectangle x1="1.35" y1="-3.9" x2="1.85" y2="-3.4" layer="51"/>
+<rectangle x1="3.55" y1="-3.9" x2="4.05" y2="-3.4" layer="51"/>
+<rectangle x1="3.55" y1="3.4" x2="4.05" y2="3.9" layer="51"/>
+<rectangle x1="1.35" y1="3.4" x2="1.85" y2="3.9" layer="51"/>
+<rectangle x1="-0.85" y1="3.4" x2="-0.35" y2="3.9" layer="51"/>
+<rectangle x1="-4.05" y1="3.4" x2="-3.55" y2="3.9" layer="51"/>
+</package>
+<package name="G6K-2G-Y" urn="urn:adsk.eagle:footprint:24017/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-5" y1="3.3" x2="-4.5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="3.3" x2="-3.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="3.3" x2="-1.3" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="3.3" x2="0.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0.1" y1="3.3" x2="0.9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.9" y1="3.3" x2="2.3" y2="3.3" width="0.254" layer="51"/>
+<wire x1="2.3" y1="3.3" x2="3.1" y2="3.3" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="51"/>
+<wire x1="5" y1="3.3" x2="5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="-3.3" x2="4.6" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="4.6" y1="-3.3" x2="3.1" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="3.1" y1="-3.3" x2="2.3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="0.9" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0.9" y1="-3.3" x2="0.1" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="0.1" y1="-3.3" x2="-1.3" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-3.3" x2="-3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="-3" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-5" y1="-3.3" x2="-5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-5" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="21"/>
+<smd name="1" x="-3.8" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="8" x="-3.8" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="-0.6" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="7" x="-0.6" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="3" x="1.6" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="6" x="1.6" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="4" x="3.8" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="5" x="3.8" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<text x="-3.81" y="0.235" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-1.505" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.05" y1="2.45" x2="-3.55" y2="3.25" layer="51"/>
+<rectangle x1="-0.85" y1="2.45" x2="-0.35" y2="3.25" layer="51"/>
+<rectangle x1="1.35" y1="2.45" x2="1.85" y2="3.25" layer="51"/>
+<rectangle x1="3.55" y1="2.45" x2="4.05" y2="3.25" layer="51"/>
+<rectangle x1="3.55" y1="-3.25" x2="4.05" y2="-2.45" layer="51"/>
+<rectangle x1="1.35" y1="-3.25" x2="1.85" y2="-2.45" layer="51"/>
+<rectangle x1="-0.85" y1="-3.25" x2="-0.35" y2="-2.45" layer="51"/>
+<rectangle x1="-4.05" y1="-3.25" x2="-3.55" y2="-2.45" layer="51"/>
+</package>
+<package name="G6K-2P-Y" urn="urn:adsk.eagle:footprint:24018/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-0.7" y1="3.1" x2="0.9" y2="3.1" width="0.254" layer="51"/>
+<wire x1="0.9" y1="3.1" x2="2.5" y2="3.1" width="0.254" layer="21"/>
+<wire x1="6.9" y1="3.1" x2="8.3" y2="3.1" width="0.254" layer="51"/>
+<wire x1="8.7" y1="3.1" x2="8.7" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="8.3" y1="-3.1" x2="6.9" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="0.9" y1="-3.1" x2="-0.7" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="-1.1" y1="-3.1" x2="-1.1" y2="3.1" width="0.254" layer="21"/>
+<wire x1="4.7" y1="3.1" x2="6.1" y2="3.1" width="0.254" layer="51"/>
+<wire x1="2.5" y1="3.1" x2="3.9" y2="3.1" width="0.254" layer="51"/>
+<wire x1="6.1" y1="-3.1" x2="4.7" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="3.9" y1="-3.1" x2="2.5" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="2.5" y1="-3.1" x2="0.9" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="4.7" y1="-3.1" x2="3.9" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="6.9" y1="-3.1" x2="6.1" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="6.9" y1="3.1" x2="6.1" y2="3.1" width="0.254" layer="21"/>
+<wire x1="4.7" y1="3.1" x2="3.9" y2="3.1" width="0.254" layer="21"/>
+<wire x1="8.7" y1="3.1" x2="8.3" y2="3.1" width="0.254" layer="21"/>
+<wire x1="8.7" y1="-3.1" x2="8.3" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-0.7" y1="3.1" x2="-1.1" y2="3.1" width="0.254" layer="21"/>
+<wire x1="-0.7" y1="-3.1" x2="-1.1" y2="-3.1" width="0.254" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="2" x="3.2" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="3" x="5.4" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="4" x="7.6" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="5" x="7.6" y="2.54" drill="0.85" shape="octagon"/>
+<pad name="6" x="5.4" y="2.54" drill="0.85" shape="octagon"/>
+<pad name="7" x="3.2" y="2.54" drill="0.85" shape="octagon"/>
+<pad name="8" x="0" y="2.54" drill="0.85" shape="octagon"/>
+<text x="-0.01" y="0.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.01" y="-1.57" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="G6KU-2F-Y" urn="urn:adsk.eagle:footprint:24019/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-5" y1="3.3" x2="-4.5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="3.3" x2="-3.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="3.3" x2="-1.3" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="3.3" x2="0.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0.1" y1="3.3" x2="0.9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.9" y1="3.3" x2="2.3" y2="3.3" width="0.254" layer="51"/>
+<wire x1="2.3" y1="3.3" x2="3.1" y2="3.3" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="51"/>
+<wire x1="5" y1="3.3" x2="5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="-3.3" x2="4.6" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="4.6" y1="-3.3" x2="3.1" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="3.1" y1="-3.3" x2="2.3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="0.9" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0.9" y1="-3.3" x2="0.1" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="0.1" y1="-3.3" x2="-1.3" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-3.3" x2="-3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="-3" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-5" y1="-3.3" x2="-5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-5" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="21"/>
+<smd name="1" x="-3.8" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="8" x="-3.8" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="-0.6" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="7" x="-0.6" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="3" x="1.6" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="6" x="1.6" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="4" x="3.8" y="-3.5" dx="1.2" dy="1.8" layer="1"/>
+<smd name="5" x="3.8" y="3.5" dx="1.2" dy="1.8" layer="1"/>
+<text x="-3.81" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.05" y1="-3.9" x2="-3.55" y2="-3.4" layer="51"/>
+<rectangle x1="-0.85" y1="-3.9" x2="-0.35" y2="-3.4" layer="51"/>
+<rectangle x1="1.35" y1="-3.9" x2="1.85" y2="-3.4" layer="51"/>
+<rectangle x1="3.55" y1="-3.9" x2="4.05" y2="-3.4" layer="51"/>
+<rectangle x1="3.55" y1="3.4" x2="4.05" y2="3.9" layer="51"/>
+<rectangle x1="1.35" y1="3.4" x2="1.85" y2="3.9" layer="51"/>
+<rectangle x1="-0.85" y1="3.4" x2="-0.35" y2="3.9" layer="51"/>
+<rectangle x1="-4.05" y1="3.4" x2="-3.55" y2="3.9" layer="51"/>
+</package>
+<package name="G6KU-2G-Y" urn="urn:adsk.eagle:footprint:24020/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-5" y1="3.3" x2="-4.5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="3.3" x2="-3.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="-3.1" y1="3.3" x2="-1.3" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="3.3" x2="0.1" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0.1" y1="3.3" x2="0.9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.9" y1="3.3" x2="2.3" y2="3.3" width="0.254" layer="51"/>
+<wire x1="2.3" y1="3.3" x2="3.1" y2="3.3" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="51"/>
+<wire x1="5" y1="3.3" x2="5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="-3.3" x2="4.6" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="4.6" y1="-3.3" x2="3.1" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="3.1" y1="-3.3" x2="2.3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="0.9" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0.9" y1="-3.3" x2="0.1" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="0.1" y1="-3.3" x2="-1.3" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-3.3" x2="-3" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="-3" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="-5" y1="-3.3" x2="-5" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-5" y1="-3.3" x2="-4.5" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5" y1="3.3" x2="4.6" y2="3.3" width="0.254" layer="21"/>
+<smd name="1" x="-3.8" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="8" x="-3.8" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="-0.6" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="7" x="-0.6" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="3" x="1.6" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="6" x="1.6" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="4" x="3.8" y="-2.85" dx="1.2" dy="1.8" layer="1"/>
+<smd name="5" x="3.8" y="2.85" dx="1.2" dy="1.8" layer="1"/>
+<text x="-3.81" y="0.235" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-1.505" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.05" y1="2.45" x2="-3.55" y2="3.25" layer="51"/>
+<rectangle x1="-0.85" y1="2.45" x2="-0.35" y2="3.25" layer="51"/>
+<rectangle x1="1.35" y1="2.45" x2="1.85" y2="3.25" layer="51"/>
+<rectangle x1="3.55" y1="2.45" x2="4.05" y2="3.25" layer="51"/>
+<rectangle x1="3.55" y1="-3.25" x2="4.05" y2="-2.45" layer="51"/>
+<rectangle x1="1.35" y1="-3.25" x2="1.85" y2="-2.45" layer="51"/>
+<rectangle x1="-0.85" y1="-3.25" x2="-0.35" y2="-2.45" layer="51"/>
+<rectangle x1="-4.05" y1="-3.25" x2="-3.55" y2="-2.45" layer="51"/>
+</package>
+<package name="G6KU-2P-Y" urn="urn:adsk.eagle:footprint:24021/1" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<wire x1="-4.5" y1="3.1" x2="-2.9" y2="3.1" width="0.254" layer="51"/>
+<wire x1="-2.9" y1="3.1" x2="-1.3" y2="3.1" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.1" x2="4.5" y2="3.1" width="0.254" layer="51"/>
+<wire x1="4.9" y1="3.1" x2="4.9" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="4.5" y1="-3.1" x2="3.1" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="-2.9" y1="-3.1" x2="-4.5" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="-4.9" y1="-3.1" x2="-4.9" y2="3.1" width="0.254" layer="21"/>
+<wire x1="0.9" y1="3.1" x2="2.3" y2="3.1" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="3.1" x2="0.1" y2="3.1" width="0.254" layer="51"/>
+<wire x1="2.3" y1="-3.1" x2="0.9" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="0.1" y1="-3.1" x2="-1.3" y2="-3.1" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-3.1" x2="-2.9" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="0.9" y1="-3.1" x2="0.1" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="3.1" y1="-3.1" x2="2.3" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.1" x2="2.3" y2="3.1" width="0.254" layer="21"/>
+<wire x1="0.9" y1="3.1" x2="0.1" y2="3.1" width="0.254" layer="21"/>
+<wire x1="4.9" y1="3.1" x2="4.5" y2="3.1" width="0.254" layer="21"/>
+<wire x1="4.9" y1="-3.1" x2="4.5" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="3.1" x2="-4.9" y2="3.1" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="-3.1" x2="-4.9" y2="-3.1" width="0.254" layer="21"/>
+<pad name="1" x="-3.8" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="2" x="-0.6" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="3" x="1.6" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="4" x="3.8" y="-2.54" drill="0.85" shape="octagon"/>
+<pad name="5" x="3.8" y="2.54" drill="0.85" shape="octagon"/>
+<pad name="6" x="1.6" y="2.54" drill="0.85" shape="octagon"/>
+<pad name="7" x="-0.6" y="2.54" drill="0.85" shape="octagon"/>
+<pad name="8" x="-3.8" y="2.54" drill="0.85" shape="octagon"/>
+<text x="-3.81" y="0.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-1.57" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="G2R2" urn="urn:adsk.eagle:package:24328/1" type="box" library_version="5">
-<description>RELAY
-2 x switch, Omron</description>
+<package3d name="G6K-2F" urn="urn:adsk.eagle:package:24347/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
 <packageinstances>
-<packageinstance name="G2R2"/>
+<packageinstance name="G6K-2F"/>
+</packageinstances>
+</package3d>
+<package3d name="G6K-2G" urn="urn:adsk.eagle:package:24344/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6K-2G"/>
+</packageinstances>
+</package3d>
+<package3d name="G6K-2P" urn="urn:adsk.eagle:package:24346/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6K-2P"/>
+</packageinstances>
+</package3d>
+<package3d name="G6K-2F-Y" urn="urn:adsk.eagle:package:24351/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6K-2F-Y"/>
+</packageinstances>
+</package3d>
+<package3d name="G6K-2G-Y" urn="urn:adsk.eagle:package:24349/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6K-2G-Y"/>
+</packageinstances>
+</package3d>
+<package3d name="G6K-2P-Y" urn="urn:adsk.eagle:package:24352/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6K-2P-Y"/>
+</packageinstances>
+</package3d>
+<package3d name="G6KU-2F-Y" urn="urn:adsk.eagle:package:24350/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6KU-2F-Y"/>
+</packageinstances>
+</package3d>
+<package3d name="G6KU-2G-Y" urn="urn:adsk.eagle:package:24356/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6KU-2G-Y"/>
+</packageinstances>
+</package3d>
+<package3d name="G6KU-2P-Y" urn="urn:adsk.eagle:package:24353/1" type="box" library_version="5">
+<description>Low Signal Relay
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
+<packageinstances>
+<packageinstance name="G6KU-2P-Y"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="K" urn="urn:adsk.eagle:symbol:23941/1" library_version="5">
-<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
-<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="U" urn="urn:adsk.eagle:symbol:23944/1" library_version="5">
 <wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
@@ -8106,37 +8459,249 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="K+-" urn="urn:adsk.eagle:symbol:24002/1" library_version="5">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.667" x2="-0.508" y2="2.667" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.921" x2="-0.762" y2="2.413" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-2.667" x2="-0.508" y2="-2.667" width="0.1524" layer="94"/>
+<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
+<pin name="-" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="G2R2" urn="urn:adsk.eagle:component:24602/2" prefix="K" library_version="5">
-<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
-2 x switch, Omron</description>
+<deviceset name="G6K" urn="urn:adsk.eagle:component:24623/2" prefix="K" library_version="5">
+<description>&lt;b&gt;Low Signal Relay&lt;/b&gt;&lt;p&gt;
+oeiwcsnts1.omron.com/.. D20G6K0100.pdf</description>
 <gates>
-<gate name="1" symbol="K" x="0" y="0" addlevel="must"/>
-<gate name="2" symbol="U" x="17.78" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="3" symbol="U" x="17.78" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="1" symbol="K+-" x="-7.62" y="0" addlevel="must"/>
+<gate name="2" symbol="U" x="10.16" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="3" symbol="U" x="10.16" y="-12.7" addlevel="always" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="G2R2">
+<device name="-2F" package="G6K-2F">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="2" pin="O" pad="O1"/>
-<connect gate="2" pin="P" pad="P1"/>
-<connect gate="2" pin="S" pad="S1"/>
-<connect gate="3" pin="O" pad="O2"/>
-<connect gate="3" pin="P" pad="P2"/>
-<connect gate="3" pin="S" pad="S2"/>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24328/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24347/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
-<attribute name="MPN" value="G2R-2-DC6" constant="no"/>
+<attribute name="MPN" value="G6K-2F DC24" constant="no"/>
+<attribute name="OC_FARNELL" value="1690427" constant="no"/>
+<attribute name="OC_NEWARK" value="36K7467" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2G" package="G6K-2G">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24344/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6K-2G DC12" constant="no"/>
+<attribute name="OC_FARNELL" value="4601695" constant="no"/>
+<attribute name="OC_NEWARK" value="93B9118" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2P" package="G6K-2P">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24346/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6K-2P DC3" constant="no"/>
+<attribute name="OC_FARNELL" value="3937276" constant="no"/>
+<attribute name="OC_NEWARK" value="89C6482" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2F-Y" package="G6K-2F-Y">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24351/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6K-2F-Y DC3" constant="no"/>
+<attribute name="OC_FARNELL" value="1690316" constant="no"/>
+<attribute name="OC_NEWARK" value="89C6451" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2G-Y" package="G6K-2G-Y">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24349/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="4484794" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2P-Y" package="G6K-2P-Y">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24352/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6K-2P-Y DC12" constant="no"/>
+<attribute name="OC_FARNELL" value="3937276" constant="no"/>
+<attribute name="OC_NEWARK" value="34C3464" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="U-2F-Y" package="G6KU-2F-Y">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24350/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6KU-2F-Y DC3" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="89C5317" constant="no"/>
+<attribute name="OC_NEWARK" value="89C6496" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="U-2G-Y" package="G6KU-2G-Y">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24356/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6KU-2G-Y DC5" constant="no"/>
+<attribute name="OC_FARNELL" value="1690320" constant="no"/>
+<attribute name="OC_NEWARK" value="89C6505" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="U-2P-Y" package="G6KU-2P-Y">
+<connects>
+<connect gate="1" pin="+" pad="1"/>
+<connect gate="1" pin="-" pad="8"/>
+<connect gate="2" pin="O" pad="2"/>
+<connect gate="2" pin="P" pad="3"/>
+<connect gate="2" pin="S" pad="4"/>
+<connect gate="3" pin="O" pad="7"/>
+<connect gate="3" pin="P" pad="6"/>
+<connect gate="3" pin="S" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24353/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="OMRON COMPONENTS USA" constant="no"/>
+<attribute name="MPN" value="G6KU-2P-Y DC5" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="35K4536" constant="no"/>
 <attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
@@ -8262,9 +8827,9 @@ W = angled&lt;p&gt;
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="in remote"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="10k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G2R2" device="" package3d_urn="urn:adsk.eagle:package:24328/1"/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="AUX-SW"/>
+<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G6K" device="-2P" package3d_urn="urn:adsk.eagle:package:24346/1"/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8319,22 +8884,22 @@ jumper to pin 1</text>
 <instance part="GND4" gate="1" x="43.18" y="48.26" smashed="yes">
 <attribute name="VALUE" x="40.64" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="K2" gate="1" x="27.94" y="93.98" smashed="yes">
-<attribute name="VALUE" x="29.21" y="96.901" size="1.778" layer="96"/>
-<attribute name="PART" x="29.21" y="99.06" size="1.778" layer="95"/>
+<instance part="SV1" gate="G$1" x="43.18" y="104.14" smashed="yes" rot="R180">
+<attribute name="VALUE" x="44.45" y="111.76" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="44.45" y="98.298" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="K2" gate="2" x="48.26" y="101.6" smashed="yes">
-<attribute name="PART" x="50.8" y="101.6" size="1.778" layer="95"/>
+<instance part="K1" gate="1" x="71.12" y="93.98" smashed="yes">
+<attribute name="VALUE" x="72.39" y="96.901" size="1.778" layer="96"/>
+<attribute name="PART" x="72.39" y="99.06" size="1.778" layer="95"/>
 </instance>
-<instance part="K2" gate="3" x="48.26" y="86.36" smashed="yes">
-<attribute name="PART" x="50.8" y="86.36" size="1.778" layer="95"/>
+<instance part="K1" gate="2" x="17.78" y="101.6" smashed="yes">
+<attribute name="PART" x="20.32" y="101.6" size="1.778" layer="95"/>
 </instance>
-<instance part="GND6" gate="1" x="27.94" y="86.36" smashed="yes">
-<attribute name="VALUE" x="25.4" y="83.82" size="1.778" layer="96"/>
+<instance part="K1" gate="3" x="43.18" y="86.36" smashed="yes">
+<attribute name="PART" x="45.72" y="86.36" size="1.778" layer="95"/>
 </instance>
-<instance part="SV1" gate="G$1" x="78.74" y="101.6" smashed="yes" rot="R180">
-<attribute name="VALUE" x="80.01" y="109.22" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="80.01" y="95.758" size="1.778" layer="95" rot="R180"/>
+<instance part="GND5" gate="1" x="71.12" y="86.36" smashed="yes">
+<attribute name="VALUE" x="68.58" y="83.82" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8391,11 +8956,11 @@ jumper to pin 1</text>
 <junction x="71.12" y="60.96"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="K2" gate="1" pin="1"/>
-<label x="20.32" y="101.6" size="1.778" layer="95"/>
-<junction x="20.32" y="99.06"/>
-<junction x="27.94" y="99.06"/>
+<wire x1="58.42" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="K1" gate="1" pin="+"/>
+<junction x="71.12" y="99.06"/>
+<junction x="58.42" y="99.06"/>
+<label x="58.42" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALARM-" class="0">
@@ -8439,11 +9004,11 @@ jumper to pin 1</text>
 <junction x="5.08" y="63.5"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="91.44" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="K2" gate="3" pin="S"/>
-<label x="45.72" y="93.98" size="1.778" layer="95"/>
-<junction x="43.18" y="91.44"/>
-<junction x="43.18" y="93.98"/>
+<wire x1="38.1" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="K1" gate="3" pin="S"/>
+<junction x="38.1" y="91.44"/>
+<junction x="27.94" y="91.44"/>
+<label x="27.94" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NORM+" class="0">
@@ -8533,9 +9098,9 @@ jumper to pin 1</text>
 <junction x="43.18" y="50.8"/>
 </segment>
 <segment>
-<pinref part="K2" gate="1" pin="2"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<junction x="27.94" y="88.9"/>
+<pinref part="K1" gate="1" pin="-"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<junction x="71.12" y="88.9"/>
 </segment>
 </net>
 <net name="ERROR" class="0">
@@ -8591,42 +9156,45 @@ jumper to pin 1</text>
 <junction x="58.42" y="76.2"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="K2" gate="3" pin="P"/>
-<label x="58.42" y="83.82" size="1.778" layer="95"/>
-<junction x="48.26" y="83.82"/>
-<junction x="55.88" y="83.82"/>
+<wire x1="43.18" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="K1" gate="3" pin="P"/>
+<junction x="43.18" y="83.82"/>
+<junction x="27.94" y="83.82"/>
+<label x="27.94" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="R-COM" class="0">
 <segment>
-<pinref part="K2" gate="2" pin="P"/>
+<pinref part="K1" gate="2" pin="P"/>
+<wire x1="17.78" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="48.26" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<junction x="48.26" y="99.06"/>
-<junction x="71.12" y="99.06"/>
+<wire x1="35.56" y1="99.06" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
+<junction x="17.78" y="99.06"/>
+<junction x="35.56" y="101.6"/>
+<label x="17.78" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="R-NC" class="0">
 <segment>
-<pinref part="K2" gate="2" pin="O"/>
-<wire x1="53.34" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="106.68" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="K1" gate="2" pin="O"/>
+<wire x1="22.86" y1="106.68" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
-<junction x="53.34" y="106.68"/>
-<junction x="71.12" y="101.6"/>
+<wire x1="22.86" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<junction x="35.56" y="104.14"/>
+<junction x="22.86" y="106.68"/>
+<label x="25.4" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="R-NO" class="0">
 <segment>
+<pinref part="K1" gate="2" pin="S"/>
+<wire x1="12.7" y1="106.68" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="104.14" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="K2" gate="2" pin="S"/>
-<wire x1="43.18" y1="109.22" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<junction x="43.18" y="106.68"/>
-<junction x="71.12" y="104.14"/>
+<wire x1="35.56" y1="109.22" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
+<junction x="12.7" y="106.68"/>
+<junction x="35.56" y="106.68"/>
+<label x="7.62" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

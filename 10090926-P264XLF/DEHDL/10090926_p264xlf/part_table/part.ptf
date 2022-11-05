@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '10090926_P264XLF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "10090926-P264XLF" (!) = "", "10090926P264XLF", "Other", "649-10090926-P264XLF", "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10090926-P264XLF?qs=EnLMdcWnKABFbd55HgNl%252Bg%3D%3D", "26 Position D-Sub, High Density Plug, Male Pins Connector", "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10090926.pdf", "12.8 mm"
+END_PART
+
+END.
