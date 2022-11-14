@@ -9831,7 +9831,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0">
+<class number="0" name="default" width="0.3556" drill="0">
+</class>
+<class number="1" name="i-current" width="0.3556" drill="0">
 </class>
 </classes>
 <parts>
@@ -9987,7 +9989,7 @@ jumper to pin 1</text>
 <busses>
 </busses>
 <nets>
-<net name="24+_REMOTE_PRI" class="0">
+<net name="24+_REMOTE_PRI" class="1">
 <segment>
 <pinref part="X1" gate="-1" pin="1"/>
 <wire x1="15.24" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
@@ -10215,7 +10217,7 @@ jumper to pin 1</text>
 <junction x="40.64" y="58.42"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="96.52" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 <label x="104.14" y="40.64" size="1.778" layer="95"/>
@@ -10346,7 +10348,7 @@ jumper to pin 1</text>
 <junction x="175.26" y="73.66"/>
 </segment>
 </net>
-<net name="R-COM" class="0">
+<net name="R-COM" class="1">
 <segment>
 <pinref part="K1" gate="2" pin="P"/>
 <wire x1="17.78" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
@@ -10357,7 +10359,7 @@ jumper to pin 1</text>
 <label x="17.78" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="R-NC" class="0">
+<net name="R-NC" class="1">
 <segment>
 <pinref part="K1" gate="2" pin="O"/>
 <wire x1="22.86" y1="106.68" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
@@ -10368,7 +10370,7 @@ jumper to pin 1</text>
 <label x="25.4" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="R-NO" class="0">
+<net name="R-NO" class="1">
 <segment>
 <pinref part="K1" gate="2" pin="S"/>
 <wire x1="12.7" y1="106.68" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
