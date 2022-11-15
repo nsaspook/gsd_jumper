@@ -9849,7 +9849,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="10k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="AUX-SW"/>
-<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G6K" device="-2P" package3d_urn="urn:adsk.eagle:package:24346/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="ANALOG OUT"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9865,6 +9864,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP13R" package3d_urn="urn:adsk.eagle:package:27967/1"/>
 <part name="DCU" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-1" device="" package3d_urn="urn:adsk.eagle:package:8343/1" value="DCU"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G6K" device="-2P-Y" package3d_urn="urn:adsk.eagle:package:24352/1"/>
+<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G6K" device="-2P-Y" package3d_urn="urn:adsk.eagle:package:24352/1"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9915,19 +9917,9 @@ jumper to pin 1</text>
 <instance part="GND4" gate="1" x="33.02" y="48.26" smashed="yes">
 <attribute name="VALUE" x="30.48" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="SV1" gate="G$1" x="43.18" y="104.14" smashed="yes" rot="R180">
-<attribute name="VALUE" x="44.45" y="111.76" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="44.45" y="98.298" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="K1" gate="1" x="71.12" y="93.98" smashed="yes">
-<attribute name="VALUE" x="72.39" y="96.901" size="1.778" layer="96"/>
-<attribute name="PART" x="72.39" y="99.06" size="1.778" layer="95"/>
-</instance>
-<instance part="K1" gate="2" x="17.78" y="101.6" smashed="yes">
-<attribute name="PART" x="20.32" y="101.6" size="1.778" layer="95"/>
-</instance>
-<instance part="K1" gate="3" x="43.18" y="86.36" smashed="yes">
-<attribute name="PART" x="45.72" y="86.36" size="1.778" layer="95"/>
+<instance part="SV1" gate="G$1" x="50.8" y="104.14" smashed="yes" rot="R180">
+<attribute name="VALUE" x="52.07" y="111.76" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="52.07" y="98.298" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="71.12" y="86.36" smashed="yes">
 <attribute name="VALUE" x="68.58" y="83.82" size="1.778" layer="96"/>
@@ -9984,6 +9976,29 @@ jumper to pin 1</text>
 </instance>
 <instance part="GND8" gate="1" x="129.54" y="86.36" smashed="yes">
 <attribute name="VALUE" x="127" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="K2" gate="1" x="147.32" y="114.3" smashed="yes">
+<attribute name="VALUE" x="148.59" y="117.221" size="1.778" layer="96"/>
+<attribute name="PART" x="148.59" y="119.38" size="1.778" layer="95"/>
+</instance>
+<instance part="K2" gate="2" x="170.18" y="114.3" smashed="yes">
+<attribute name="PART" x="172.72" y="114.3" size="1.778" layer="95"/>
+</instance>
+<instance part="K2" gate="3" x="170.18" y="99.06" smashed="yes">
+<attribute name="PART" x="172.72" y="99.06" size="1.778" layer="95"/>
+</instance>
+<instance part="K1" gate="1" x="71.12" y="93.98" smashed="yes">
+<attribute name="VALUE" x="72.39" y="96.901" size="1.778" layer="96"/>
+<attribute name="PART" x="72.39" y="99.06" size="1.778" layer="95"/>
+</instance>
+<instance part="K1" gate="2" x="17.78" y="101.6" smashed="yes">
+<attribute name="PART" x="20.32" y="101.6" size="1.778" layer="95"/>
+</instance>
+<instance part="K1" gate="3" x="43.18" y="86.36" smashed="yes">
+<attribute name="PART" x="45.72" y="86.36" size="1.778" layer="95"/>
+</instance>
+<instance part="GND9" gate="1" x="147.32" y="106.68" smashed="yes">
+<attribute name="VALUE" x="144.78" y="104.14" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10057,13 +10072,13 @@ jumper to pin 1</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="+"/>
-<junction x="71.12" y="99.06"/>
 <junction x="58.42" y="99.06"/>
 <label x="58.42" y="101.6" size="1.778" layer="95"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="68.58" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
+<pinref part="K1" gate="1" pin="+"/>
+<junction x="71.12" y="99.06"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
@@ -10137,10 +10152,10 @@ jumper to pin 1</text>
 </segment>
 <segment>
 <wire x1="38.1" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="K1" gate="3" pin="S"/>
-<junction x="38.1" y="91.44"/>
 <junction x="27.94" y="91.44"/>
 <label x="27.94" y="93.98" size="1.778" layer="95"/>
+<pinref part="K1" gate="3" pin="S"/>
+<junction x="38.1" y="91.44"/>
 </segment>
 </net>
 <net name="NORM+" class="0">
@@ -10207,6 +10222,13 @@ jumper to pin 1</text>
 <junction x="15.24" y="58.42"/>
 <junction x="2.54" y="58.42"/>
 </segment>
+<segment>
+<wire x1="170.18" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="K2" gate="3" pin="P"/>
+<label x="160.02" y="93.98" size="1.778" layer="95"/>
+<junction x="170.18" y="96.52"/>
+<junction x="157.48" y="96.52"/>
+</segment>
 </net>
 <net name="DECEL-" class="0">
 <segment>
@@ -10215,6 +10237,13 @@ jumper to pin 1</text>
 <label x="40.64" y="58.42" size="1.778" layer="95"/>
 <junction x="30.48" y="58.42"/>
 <junction x="40.64" y="58.42"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="K2" gate="3" pin="S"/>
+<label x="157.48" y="101.6" size="1.778" layer="95"/>
+<junction x="165.1" y="104.14"/>
+<junction x="154.94" y="104.14"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -10244,11 +10273,6 @@ jumper to pin 1</text>
 <junction x="33.02" y="50.8"/>
 </segment>
 <segment>
-<pinref part="K1" gate="1" pin="-"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<junction x="71.12" y="88.9"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="G$1" pin="3"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <junction x="93.98" y="101.6"/>
@@ -10265,6 +10289,16 @@ jumper to pin 1</text>
 <pinref part="DCU" gate="1" pin="8"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <junction x="129.54" y="88.9"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="K1" gate="1" pin="-"/>
+<junction x="71.12" y="88.9"/>
+</segment>
+<segment>
+<pinref part="K2" gate="1" pin="-"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<junction x="147.32" y="109.22"/>
 </segment>
 </net>
 <net name="ERROR" class="0">
@@ -10297,6 +10331,20 @@ jumper to pin 1</text>
 <label x="114.3" y="55.88" size="1.778" layer="95"/>
 <junction x="132.08" y="55.88"/>
 <junction x="111.76" y="55.88"/>
+</segment>
+<segment>
+<wire x1="17.78" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="K1" gate="2" pin="P"/>
+<label x="0" y="96.52" size="1.778" layer="95"/>
+<junction x="17.78" y="99.06"/>
+<junction x="7.62" y="99.06"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<junction x="43.18" y="101.6"/>
+<junction x="25.4" y="101.6"/>
+<label x="27.94" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10335,10 +10383,10 @@ jumper to pin 1</text>
 </segment>
 <segment>
 <wire x1="43.18" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="K1" gate="3" pin="P"/>
-<junction x="43.18" y="83.82"/>
 <junction x="27.94" y="83.82"/>
 <label x="27.94" y="86.36" size="1.778" layer="95"/>
+<pinref part="K1" gate="3" pin="P"/>
+<junction x="43.18" y="83.82"/>
 </segment>
 <segment>
 <wire x1="175.26" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
@@ -10346,40 +10394,6 @@ jumper to pin 1</text>
 <label x="162.56" y="73.66" size="1.778" layer="95"/>
 <junction x="157.48" y="73.66"/>
 <junction x="175.26" y="73.66"/>
-</segment>
-</net>
-<net name="R-COM" class="1">
-<segment>
-<pinref part="K1" gate="2" pin="P"/>
-<wire x1="17.78" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="35.56" y1="99.06" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
-<junction x="17.78" y="99.06"/>
-<junction x="35.56" y="101.6"/>
-<label x="17.78" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="R-NC" class="1">
-<segment>
-<pinref part="K1" gate="2" pin="O"/>
-<wire x1="22.86" y1="106.68" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
-<junction x="35.56" y="104.14"/>
-<junction x="22.86" y="106.68"/>
-<label x="25.4" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="R-NO" class="1">
-<segment>
-<pinref part="K1" gate="2" pin="S"/>
-<wire x1="12.7" y1="106.68" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="109.22" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<junction x="12.7" y="106.68"/>
-<junction x="35.56" y="106.68"/>
-<label x="7.62" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="REMOTE_ACTIVE" class="0">
@@ -10463,13 +10477,48 @@ jumper to pin 1</text>
 <junction x="129.54" y="104.14"/>
 </segment>
 </net>
+<net name="DECEL_STOP" class="0">
+<segment>
+<wire x1="147.32" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="K2" gate="1" pin="+"/>
+<label x="129.54" y="119.38" size="1.778" layer="95"/>
+<junction x="147.32" y="119.38"/>
+<junction x="137.16" y="119.38"/>
+</segment>
+<segment>
+<wire x1="22.86" y1="106.68" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="K1" gate="2" pin="O"/>
+<junction x="22.86" y="106.68"/>
+<label x="22.86" y="114.3" size="1.778" layer="95"/>
+<junction x="22.86" y="111.76"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<label x="27.94" y="104.14" size="1.778" layer="95"/>
+<junction x="43.18" y="104.14"/>
+<junction x="38.1" y="104.14"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="K1" gate="2" pin="S"/>
+<wire x1="12.7" y1="106.68" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
+<junction x="12.7" y="106.68"/>
+<label x="7.62" y="111.76" size="1.778" layer="95"/>
+<junction x="12.7" y="111.76"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<label x="35.56" y="109.22" size="1.778" layer="95"/>
+<junction x="38.1" y="106.68"/>
+<junction x="43.18" y="106.68"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="106,1,15.24,58.42,DECEL+,,,,,"/>
-<approved hash="106,1,30.48,58.42,DECEL-,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

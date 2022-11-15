@@ -8175,7 +8175,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="10k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="351" device="" package3d_urn="urn:adsk.eagle:package:24300/1"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8240,9 +8239,6 @@ jumper to pin 1</text>
 <instance part="K1" gate="3" x="50.8" y="78.74" smashed="yes">
 <attribute name="PART" x="53.34" y="78.74" size="1.778" layer="95"/>
 </instance>
-<instance part="GND5" gate="1" x="33.02" y="88.9" smashed="yes">
-<attribute name="VALUE" x="30.48" y="86.36" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -8303,6 +8299,13 @@ jumper to pin 1</text>
 <label x="66.04" y="60.96" size="1.778" layer="95"/>
 <junction x="81.28" y="60.96"/>
 <junction x="71.12" y="60.96"/>
+</segment>
+<segment>
+<wire x1="22.86" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="K1" gate="1" pin="2"/>
+<label x="27.94" y="88.9" size="1.778" layer="95"/>
+<junction x="33.02" y="91.44"/>
+<junction x="22.86" y="91.44"/>
 </segment>
 </net>
 <net name="ALARM-" class="0">
@@ -8438,11 +8441,6 @@ jumper to pin 1</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <junction x="43.18" y="50.8"/>
-</segment>
-<segment>
-<pinref part="K1" gate="1" pin="2"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<junction x="33.02" y="91.44"/>
 </segment>
 </net>
 <net name="ERROR" class="0">
